@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #e4e6eb;
 }
 
 code {
@@ -17,7 +18,8 @@ code {
 }
 
 .page {
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
+    background: #18191a;
     padding: 10px;
     min-height: 100vh;
 }
@@ -25,6 +27,8 @@ code {
 nav {
   display: flex;
   justify-content: center;
+  background: #242526;
+  color: #e4e6eb;
 }
 nav svg {
   margin-right:5px;
@@ -36,7 +40,7 @@ nav a {
   align-items: center;
   margin: 20px;
   text-decoration: none;
-  color: #000;
+  color: #e4e6eb;
 }
 
 nav a:hover {
@@ -70,11 +74,13 @@ nav a:hover {
 .conteudo h1 {
   font-size: 60px;
   margin-bottom: 8px;
+  color: #e4e6eb;
 }
 
 .conteudo p {
   font-weight: 300;
-    color: #717173;
+    /* color: #717173; */
+    color: #e4e6eb;
 }
 
 .conteudo img {
